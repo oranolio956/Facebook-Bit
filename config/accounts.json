@@ -1,14 +1,38 @@
 [
   {
-    "account_id": "account_01",
-    "proxy_url": "http://username:password@proxy_address:port",
-    "city": "New York",
-    "locale": "en-US"
+    "account_id": "s2942841hd",
+    "username": "s2942841hd@hotmail.com",
+    "password": "ushsksvdbd",
+    "totp_secret": "ARV3SHEK3VX43QWOOSG7GNEQJ4OSO2MT",
+    "proxy_url": "http://metzlerdalton3_gmail_co:64e7322964@185.64.250.104:30011",
+    "city": "Miami, FL",
+    "max_posts_per_day": 5
   },
   {
-    "account_id": "account_02",
-    "proxy_url": null,
-    "city": "San Francisco",
-    "locale": "en-US"
+    "account_id": "dbrucesnow2003",
+    "username": "dbrucesnow2003@hotmail.com",
+    "password": "fsifgajdj",
+    "totp_secret": "PKALTRZ3S4WMOFHCG6LVVIEXKP7HKUJ5",
+    "proxy_url": "http://metzlerdalton3_gmail_co:64e7322964@176.53.165.79:30011",
+    "city": "Dallas, TX",
+    "max_posts_per_day": 5
+  },
+  {
+    "account_id": "maria_ellisraven2003",
+    "username": "maria_ellisraven2003@hotmail.com",
+    "password": "psjfbkak",
+    "totp_secret": "IINZDZC63KSZPKMV4IYKNTJSS2ZN4SPU",
+    "proxy_url": "http://metzlerdalton3_gmail_co:64e7322964@84.54.10.120:30011",
+    "city": "Phoenix, AZ",
+    "max_posts_per_day": 5
+  },
+  {
+    "account_id": "j5319791i7",
+    "username": "j5319791i7@hotmail.com",
+    "password": "mhjfgdbchf",
+    "totp_secret": "AJYUR4OYUJ5FDQVCWEBGL4CM4E7VYJH7",
+    "proxy_url": "http://metzlerdalton3_gmail_co:64e7322964@85.31.49.71:30011",
+    "city": "Chicago, IL",
+    "max_posts_per_day": 5
   }
 ]
