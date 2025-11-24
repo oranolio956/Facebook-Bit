@@ -2,7 +2,7 @@ import json
 import os
 import csv
 from datetime import datetime, timedelta
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Any
 from loguru import logger
 from src.marketplace.models import RentalListing
 
