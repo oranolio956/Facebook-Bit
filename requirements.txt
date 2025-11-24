@@ -1,0 +1,8 @@
+playwright
+pytest
+pydantic
+loguru
+openai
+Pillow
+pyotp
+requests

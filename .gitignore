@@ -1,0 +1,11 @@
+venv/
+.venv/
+user_data/
+logs/
+processed_images/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+posting_history.json
+daily_stats.json

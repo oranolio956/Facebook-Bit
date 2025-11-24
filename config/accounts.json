@@ -1,0 +1,14 @@
+[
+  {
+    "account_id": "account_01",
+    "proxy_url": "http://username:password@proxy_address:port",
+    "city": "New York",
+    "locale": "en-US"
+  },
+  {
+    "account_id": "account_02",
+    "proxy_url": null,
+    "city": "San Francisco",
+    "locale": "en-US"
+  }
+]

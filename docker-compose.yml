@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  fb-marketplace-bot:
+    build: .
+    container_name: fb_auto_bot
+    restart: always
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # Mount configuration file
+      - ./config/accounts.json:/app/config/accounts.json
+      
+      # Mount persistent data directories
+      - ./user_data:/app/user_data
+      - ./processed_images:/app/processed_images
+      - ./logs:/app/logs
+      
+      # Mount history/stats files
+      - ./posting_history.json:/app/posting_history.json
+      - ./daily_stats.json:/app/daily_stats.json
+    
+    # Resources limit to prevent memory leaks crashing the host
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 4G
